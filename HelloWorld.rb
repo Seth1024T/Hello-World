@@ -1,5 +1,6 @@
 # This program says hello to the world
 # This program uses a programming language called Ruby.
+# keywords: function, method
 # Copyright (C) 2016 Seth1024T (https://github.com/Seth1024T)
 =begin
     This program is free software: you can redistribute it and/or modify
