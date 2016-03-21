@@ -29,16 +29,19 @@ puts "please check the source code for details about the GNU GPL V3"
 puts "licence or go to directly to http://www.gnu.org/licenses/ or"
 puts "http://www.gnu.org/licenses/gpl.html for more specific details."
 puts "***************************************"
-def display(anything)
+def display(anything="- - - - - - - - - - - -")
+    # if the programmer just types display, 
+    # then "- - - - - - - - - - - -" is printed
     puts anything
 end
 def blankline
     puts " "
 end
-Decoration1="********************************" #people call this a string
+Decoration1="*********************************" #people call this a string
 display(Decoration1)
 puts "Hello World."
 blankline
+display
 display("Thank you for using this program.")
 display("Program closing... bye.")
 display(Decoration1)
