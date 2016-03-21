@@ -35,7 +35,10 @@ end
 def blankline
     puts " "
 end
+Decoration1="********************************" #people call this a string
+display(Decoration1)
 puts "Hello World."
 blankline
 display("Thank you for using this program.")
 display("Program closing... bye.")
+display(Decoration1)
